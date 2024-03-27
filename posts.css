@@ -18,6 +18,7 @@ html{
     font-family: Times, "Times New Roman", Georgia, serif;
     background-color:rgb(0,0,0);
     color: #FEFEFE;
+    
 }
 a{ 
     color:crimson;
@@ -177,10 +178,83 @@ header{
     font-family:aquirelight;
 }
 .footer {
-    margin-top: 13px;
-    padding: 12px;
+    margin-top: 12px;
+    padding: 13px;
     text-align: right;
     color:crimson;
     font-size:12px;
      font-family:aquirelight;
+}
+.table-head {
+    display:flex;
+     
+}
+.table-head div{
+   padding:2px;
+   margin: 2px;
+   background-color: #111314;
+   font-weight:bold;
+}
+.table-head .status{
+    flex:5%;
+}
+.table-head .subject{
+    flex:70%;
+}
+.table-head .replies{
+    flex:10%;
+}
+.table-head .last-reply{
+    flex:15%;
+}
+/*table-body*/
+.table-row{
+    display:flex;
+
+}
+.table-row .status,.table-row .subject,.table-row .replies,.table-row .last-reply{
+    padding: 5px;
+    margin: 2px;
+    background-color: #111314;
+}
+.table-row .status{
+    flex:5%;
+    font-size: 25px;
+    text-align: center;
+}
+.table-row .subject{
+    flex:70%;
+}
+.table-row .replies{
+    flex:10%;
+}
+.table-row .last-reply{
+    flex:15%;
+}
+.pagination {
+    padding:10px;
+    margin:5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: aquirelight;
+    font-size: 15px;
+
+}
+.pagination a:hover{
+  color: green;
+  opacity:0.75;
+}
+.navigate{
+    margin-block: 5px;
+    font-family:aquirelight;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.navigate a:hover{
+    color:green;
+    opacity: 0.75;
+}
+.note{
+    font-size: 15px;
+    margin-block: 10px;
 }
