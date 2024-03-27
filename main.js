@@ -1,5 +1,6 @@
 
 //navbar
+//ah yes, the heian era
 function hideiconbar(){
     var baricon = document.getElementById("baricon")
     var navigation = document.getElementById("navigation")
