@@ -21,12 +21,12 @@ html{
     color: #FEFEFE;
 }
 a{ 
-    color:crimson;
+    color:green;
     font-weight: bolder;
     text-decoration:none;
 }
 h1{
-    color:crimson;
+    color:green;
     font-size:20px;
     font-weight:bolder;
     font-family: aquire;
@@ -67,7 +67,7 @@ h1{
     display:block;
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(190,190,190,0), crimson,rgba(190,190,190,0));
+    background-image: linear-gradient(to right, rgba(190,190,190,0), green,rgba(190,190,190,0));
 }
 .center{
     display: flex;
@@ -129,7 +129,7 @@ header{
     font-size: 60px;
     display: inline-block;
     margin-right: 10px;
-    color: crimson;
+    color: green;
     cursor:pointer;
 }
     
@@ -137,18 +137,18 @@ header{
 .brand{
     font-size: 60px;
     display: inline-block;
-    color: crimson;
+    color: green;
     font-family: aquire;
 }
 /* search bar */
 
 .search-box{
-    border:solid 1px crimson;
+    border:solid 1px green;
     margin-top: 20px;
     padding: 25px;
     display:flex;
     justify-content: center;
-    box-shadow:1px 2px 3px crimson;
+    box-shadow:1px 2px 3px green;
 }
 .search-box select{
     padding: 10px;
@@ -162,8 +162,8 @@ header{
 }
 
 .search-box button:hover{
-    background-color: crimson;
-    box-shadow: 1px 2px 3px red;
+    background-color: green;
+    box-shadow: 1px 2px 3px pink;
 }
 
 /* goro's aditional information */
@@ -181,7 +181,7 @@ header{
     margin-top: 13px;
     padding: 12px;
     text-align: right;
-    color:crimson;
+    color:green;
     font-size:12px;
      font-family:aquirelight;
 }
